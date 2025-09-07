@@ -1,0 +1,4 @@
+endpoint,response_time_seconds
+/api/city,0.625
+/api/industry,0.755
+/api/company/{mst},0.339

@@ -1,0 +1,24 @@
+[2025-09-07 06:34:09] INFO: ✅ Logger initialized
+[2025-09-07 06:34:09] INFO: 📖 Reading Excel file: /Users/nguyenduchung1993/Downloads/tools-data-bhxh/bhxh-hn-3.xlsx
+[2025-09-07 06:34:10] INFO: 📋 Found 1 sheet(s): Sheet1
+[2025-09-07 06:34:10] ERROR: ❌ Error reading Excel file: module 'pandas' has no attribute 'NaType' file_path=/Users/nguyenduchung1993/Downloads/tools-data-bhxh/bhxh-hn-3.xlsx error=module 'pandas' has no attribute 'NaType'
+[2025-09-07 06:34:48] INFO: ✅ Logger initialized
+[2025-09-07 06:34:48] INFO: 📖 Reading Excel file: /Users/nguyenduchung1993/Downloads/tools-data-bhxh/bhxh-hn-3.xlsx
+[2025-09-07 06:34:48] INFO: 📋 Found 1 sheet(s): Sheet1
+[2025-09-07 06:34:48] INFO: ✅ Processed sheet "Sheet1": 514 rows
+[2025-09-07 06:34:48] INFO: 📊 Excel file loaded successfully: 514 total records
+[2025-09-07 06:35:59] INFO: ✅ Logger initialized
+[2025-09-07 06:35:59] INFO: 📖 Reading Excel file: /Users/nguyenduchung1993/Downloads/tools-data-bhxh/bhxh-hn-3.xlsx
+[2025-09-07 06:35:59] INFO: 📋 Found 1 sheet(s): Sheet1
+[2025-09-07 06:35:59] INFO: ✅ Processed sheet "Sheet1": 514 rows
+[2025-09-07 06:35:59] INFO: 📊 Excel file loaded successfully: 514 total records
+[2025-09-07 06:36:37] INFO: ✅ Logger initialized
+[2025-09-07 06:36:37] INFO: 📖 Reading Excel file: /Users/nguyenduchung1993/Downloads/tools-data-bhxh/bhxh-hn-3.xlsx
+[2025-09-07 06:36:37] INFO: 📋 Found 1 sheet(s): Sheet1
+[2025-09-07 06:36:38] INFO: ✅ Processed sheet "Sheet1": 514 rows
+[2025-09-07 06:36:38] INFO: 📊 Excel file loaded successfully: 514 total records
+[2025-09-07 06:40:36] INFO: ✅ Logger initialized
+[2025-09-07 06:40:36] INFO: 📖 Reading Excel file: /Users/nguyenduchung1993/Downloads/tools-data-bhxh/data-bhxh-21-6.xlsx
+[2025-09-07 06:40:36] INFO: 📋 Found 1 sheet(s): Sheet1
+[2025-09-07 06:40:36] INFO: ✅ Processed sheet "Sheet1": 42 rows
+[2025-09-07 06:40:36] INFO: 📊 Excel file loaded successfully: 42 total records

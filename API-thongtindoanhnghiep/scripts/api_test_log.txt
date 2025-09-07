@@ -1,0 +1,28 @@
+--- Testing get_cities ---
+2025-09-02 03:35:30,875 - INFO - Fetching all cities...
+2025-09-02 03:35:31,500 - INFO - Request successful for /api/city
+API response for get_cities: {'data': [{'Type': 1, 'SolrID': '/ha-noi', 'ID': 1, 'Title': 'Hà Nội', 'STT': 0, 'Created': None, 'Updated': None, 'TotalDoanhNghiep': 300661}, ... (dữ liệu đã được rút gọn)
+No cities found in the 'data' key.
+
+--- Testing get_industries ---
+2025-09-02 03:35:32,875 - INFO - Fetching all industries...
+2025-09-02 03:35:33,630 - INFO - Request successful for /api/industry
+API response for get_industries: {'data': [{'Type': 3, 'SolrID': '/nganh-nghe/san-xuat-giuong-tu-ban-ghe', 'ID': 1, 'Title': 'Sản xuất giường, tủ, bàn, ghế', 'STT': 0, 'Created': None, 'Updated': None, 'TotalDoanhNghiep': 0}, ... (dữ liệu đã được rút gọn)
+No industries found in the 'data' key.
+
+--- Testing search_companies (k=Cong Ty Co phan Cong Nghe, l=ha-noi, p=1) ---
+2025-09-02 03:35:33,632 - INFO - Searching companies with params: k=Cong Ty Co phan Cong Nghe, l=ha-noi, i=None, r=None, p=1...
+2025-09-02 03:35:33,896 - INFO - Request successful for /api/company
+API response for search_companies: {'Total': 2, 'data': [{'Type': 11, 'SolrID': '/0108454055-cong-ty-co-phan-cong-nghe-va-xay-dung-minh-long', 'ID': 0, 'MaSoThue': '0108454055', 'NgayCap': '2018-09-27T00:00:00Z', 'NgayDongMST': None, 'Title': 'Công Ty Cổ Phần Công Nghệ Và Xây Dựng Minh Long', ...}, {'Type': 11, 'SolrID': '/0108335266-cong-ty-co-phan-cong-nghe-boi-loi-vietswim', 'ID': 0, 'MaSoThue': '0108335266', 'NgayCap': '2018-06-22T00:00:00Z', 'NgayDongMST': None, 'Title': 'Công Ty Cổ Phần Công Nghệ Bơi Lội Vietswim', ...}]}
+No companies found in the 'data' key.
+
+--- Testing search_companies (error case - non-existent company name) ---
+2025-09-02 03:35:33,898 - INFO - Searching companies with params: k=Cong Ty Khong Ton Tai XYZ, l=None, i=None, r=None, p=None...
+2025-09-02 03:35:34,955 - INFO - Request successful for /api/company
+Error handling for non-existent company name worked as expected (no data returned).
+
+--- Testing get_company_detail_by_mst (error case - non-existent MST) ---
+2025-09-02 03:35:34,957 - INFO - Fetching detail for company MST: 0000000000...
+2025-09-02 03:35:35,296 - INFO - Request successful for /api/company/0000000000
+Error handling for non-existent MST failed. Response: {'Type': 11, 'SolrID': None, 'ID': 0, 'MaSoThue': None, ...}
+

@@ -1,0 +1,1 @@
+[2025-09-07 06:34:10] ERROR: ❌ Error reading Excel file: module 'pandas' has no attribute 'NaType' file_path=/Users/nguyenduchung1993/Downloads/tools-data-bhxh/bhxh-hn-3.xlsx error=module 'pandas' has no attribute 'NaType'

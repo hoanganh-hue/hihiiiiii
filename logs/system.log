@@ -1,0 +1,10 @@
+2025-09-06 22:37:22 | IntegratedSystem | INFO     | 🔧 Khởi tạo module wrappers...
+2025-09-06 22:37:22 | IntegratedSystem | ERROR    | ❌ Lỗi khởi tạo modules: Không tìm thấy thư mục CCCD module: C:\Users\bh\Desktop\1\cccd
+2025-09-07 09:46:07 | IntegratedSystem | INFO     | 🔧 Khởi tạo module wrappers...
+2025-09-07 09:46:07 | IntegratedSystem | INFO     | ✅ CCCD Module Enhanced - Sẵn sàng (Tỷ lệ chính xác: 100%)
+2025-09-07 09:46:07 | IntegratedSystem | INFO     | ✅ Doanh Nghiep Module - Sẵn sàng
+2025-09-07 09:46:07 | IntegratedSystem | ERROR    | ❌ Lỗi khởi tạo modules: Không tìm thấy thư mục BHXH module: /Users/nguyenduchung1993/Downloads/bhxh-tool-enhanced
+2025-09-07 09:46:07 | IntegratedSystem | INFO     | 🔧 Khởi tạo module wrappers...
+2025-09-07 09:46:07 | IntegratedSystem | INFO     | ✅ CCCD Module Enhanced - Sẵn sàng (Tỷ lệ chính xác: 100%)
+2025-09-07 09:46:07 | IntegratedSystem | INFO     | ✅ Doanh Nghiep Module - Sẵn sàng
+2025-09-07 09:46:07 | IntegratedSystem | ERROR    | ❌ Lỗi khởi tạo modules: Không tìm thấy thư mục BHXH module: /Users/nguyenduchung1993/Downloads/bhxh-tool-enhanced

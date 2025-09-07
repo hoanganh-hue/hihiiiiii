@@ -1,0 +1,26 @@
+[2025-09-07 05:26:53] INFO: ✅ Logger initialized
+[2025-09-07 05:26:53] INFO: ✅ Cache initialized bhxhTTL=300 checkPeriod=30
+[2025-09-07 05:26:53] INFO: 🔥 Province cache warmed up with 6 entries
+[2025-09-07 05:26:53] INFO: ✅ Loaded 64 provinces
+[2025-09-07 05:27:01] INFO: ✅ Logger initialized
+[2025-09-07 05:27:01] INFO: ✅ Cache initialized bhxhTTL=300 checkPeriod=30
+[2025-09-07 05:27:01] INFO: 🔥 Province cache warmed up with 6 entries
+[2025-09-07 05:27:01] INFO: ✅ Loaded 64 provinces
+[2025-09-07 05:27:01] INFO: 🚀 Initializing Enhanced BHXH Tool v2.0.0
+[2025-09-07 05:27:01] INFO: 🔧 Validating configurations...
+[2025-09-07 05:27:01] INFO: ✅ Configuration validation completed
+[2025-09-07 05:27:01] INFO: ✅ Application initialized successfully
+[2025-09-07 05:27:01] INFO: 🧪 Running diagnostic tests...
+[2025-09-07 05:27:01] INFO: 🧪 Testing CAPTCHA service...
+[2025-09-07 05:27:01] INFO: 🔐 Starting CAPTCHA solving [TEST]
+[2025-09-07 05:27:02] ERROR: 📤 Submit error [TEST]: CAPTCHA submit failed: You've provided key parameter value in incorrect format, it should contain 32 symbols.
+[2025-09-07 05:27:02] WARNING: ❌ CAPTCHA solving failed on attempt 1: CAPTCHA submit error: CAPTCHA submit failed: You've provided key parameter value in incorrect format, it should contain 32 symbols.
+[2025-09-07 05:27:02] INFO: ⏳ Retrying CAPTCHA solving in 4212ms (attempt 2/5)
+[2025-09-07 05:27:07] ERROR: 📤 Submit error [TEST]: CAPTCHA submit failed: You've provided key parameter value in incorrect format, it should contain 32 symbols.
+[2025-09-07 05:27:07] WARNING: ❌ CAPTCHA solving failed on attempt 2: CAPTCHA submit error: CAPTCHA submit failed: You've provided key parameter value in incorrect format, it should contain 32 symbols.
+[2025-09-07 05:27:07] INFO: ⏳ Retrying CAPTCHA solving in 9307ms (attempt 3/5)
+[2025-09-07 05:27:16] ERROR: 📤 Submit error [TEST]: CAPTCHA submit failed: You've provided key parameter value in incorrect format, it should contain 32 symbols.
+[2025-09-07 05:27:16] WARNING: ❌ CAPTCHA solving failed on attempt 3: CAPTCHA submit error: CAPTCHA submit failed: You've provided key parameter value in incorrect format, it should contain 32 symbols.
+[2025-09-07 05:27:16] INFO: ⏳ Retrying CAPTCHA solving in 15520ms (attempt 4/5)
+[2025-09-07 05:27:29] INFO: 📴 Received signal 15. Shutting down gracefully...
+[2025-09-07 05:27:29] INFO: ✅ Graceful shutdown completed
